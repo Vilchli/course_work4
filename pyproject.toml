@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "course-work4"
+version = "0.1.0"
+description = ""
+authors = ["Vil <Vil.king.li@mail.ru>"]
+readme = "README.md"
+packages = [{include = "course_work4"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+classes = "^0.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
